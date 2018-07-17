@@ -26,7 +26,7 @@ a {
 }
 
 a:hover {
-  color: white;
+  color: black;
 }
 
 h1,
@@ -120,7 +120,7 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #bdbdbd !important;
+  color: #8A949B !important;
   background-color: transparent;
 }
 
@@ -159,7 +159,7 @@ img::-moz-selection {
     color: black;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #bdbdbd;
+    color: #8A949B;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -167,14 +167,14 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #bdbdbd
+    color: #8A949B
   }
 }
 
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("http://www.jhjackson.com/wp-content/uploads/2009/01/Austonian5.jpg");
+  background-image: url('../Skyline.png');
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -329,5 +329,5 @@ header.masthead p {
   margin-left: auto;
   margin-right: auto;
   width:50%;
-  height:50%;
+  height:70%;
 }
