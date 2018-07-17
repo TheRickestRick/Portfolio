@@ -2,9 +2,6 @@
     "title": "Creative",
     "name": "startbootstrap-creative",
     "version": "4.1.1",
-    "scripts": {
-      "start": "node server.js"
-    },
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.1.0",
         "bootstrap": "4.1.1",
