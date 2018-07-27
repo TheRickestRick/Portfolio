@@ -250,6 +250,7 @@ header.masthead p {
   top: 50%;
   width: 100%;
   transform: translateY(-50%);
+  background-color: #fff8e7;
   /* text-align: center; */
 }
 
