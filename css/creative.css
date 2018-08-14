@@ -331,8 +331,8 @@ header.masthead p {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:23rem;
-  height:30rem;
+  width:50%;
+  height:70%;
 }
 
 .navbar-toggler{
