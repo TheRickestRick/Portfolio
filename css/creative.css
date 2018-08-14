@@ -19,7 +19,7 @@ hr.light {
 }
 
 a {
-  color: black;
+  color: blue;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -87,11 +87,13 @@ img::-moz-selection {
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: black;
+  background-color: #fff8e7;
   font-family: 'Merriweather', serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
+
   transition: all 0.2s;
+
 }
 
 #mainNav .navbar-brand {
@@ -102,7 +104,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: black;
+  color: #8A949B;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -110,12 +112,12 @@ img::-moz-selection {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #212529;
+  color: black;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #F05F40;
+  color: #8A949B;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
@@ -172,7 +174,7 @@ img::-moz-selection {
 }
 
 header.masthead {
-  padding-top: 10rem;
+  padding-top: 25rem;
   padding-bottom: calc(10rem - 56px);
   background-image: url('../Skyline.png');
   background-position: center center;
@@ -331,4 +333,9 @@ header.masthead p {
   margin-right: auto;
   width:50%;
   height:70%;
+}
+
+.navbar-toggler{
+  background-color: #fff8e7;
+
 }
