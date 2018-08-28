@@ -176,7 +176,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 29rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url('../Skyline.png');
+  background-image: url('../Skyline.jpg');
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
